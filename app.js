@@ -1,3 +1,4 @@
+
 var favoriteBooks = ["got","harry potter"];
 function addFavoriteBook(bookName){
     var bookcheck = bookName.includes("Great");
@@ -6,10 +7,8 @@ function addFavoriteBook(bookName){
     }
 }
 
-var Livres = ["100 Years", "Wanted", "Hearth of Light"];
 function printFavoriteBooks(){
-    for (let bk of Livres){
-        favoriteBooks.push(bk);
-        console.log("Livres favoris :" + " " + bk);
+    for (let bk of favoriteBooks){
+        console.log("Livres favoris :" + bk);
     }  
 }
